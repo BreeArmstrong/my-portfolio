@@ -211,6 +211,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .about__bio-image p {
@@ -220,9 +223,6 @@
 .about__bio {
   width: 80%;
   text-align: center;
-  position: fixed;
-  -webkit-transform: translateY(20vh);
-          transform: translateY(20vh);
 }
 
 .about__bio .text-secondary {
