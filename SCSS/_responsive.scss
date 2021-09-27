@@ -1,0 +1,135 @@
+@include media-md {
+    .menu-btn {
+        visibility: hidden;
+    }
+
+    .nav {
+        visibility: visible;
+
+        .menu-nav {
+            display: block;
+            transform: translateY(0);
+            height: 100%;
+            background: transparent;
+            text-align: right;
+
+            &__item {
+                display: inline;
+                padding-right: 1.5rem;
+            }
+
+            &__link {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .about__bio {
+        font-size: 1.5rem;
+    }
+
+    .projects {
+        &__bio-image {
+            height: 40vh;
+        }
+
+        &__items {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .text-secondary {
+            font-size: 3rem;;
+        }
+    }
+
+    .contact__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@include media-lg {
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+        justify-content: end;
+        padding-bottom: 5rem;
+
+        .social-icons {
+            position: initial;
+            margin-top: 2rem;
+        }
+    }
+
+    .about__bio-image {
+        height: 50vh;
+        background-position-y: 10%;
+    }
+    .projects {
+        &__bio-image {
+            height: 50vh;
+            background-position-y: 10%;
+        }
+
+        &__items{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    .contact__list {
+        grid-template-columns: repeat(3, 1fr);
+    
+}
+
+footer {
+    transform: initial;
+}
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+        justify-content: end;
+        padding-bottom: 5rem;
+    }
+
+}
+
+@include media-xl {
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+        justify-content: end;
+        padding-bottom: 5rem;
+
+        .social-icons {
+            position: initial;
+            margin-top: 2rem;
+        }
+    }
+
+    footer {
+        transform: initial;
+    }
+
+    .about__bio-image {
+        height: 60vh;
+        background-position-y: 10%;
+    }
+
+    .projects__bio-image {
+        height: 60vh;
+        background-position-y: 10%;
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+        justify-content: end;
+        padding-bottom: 5rem;
+    }
+}
