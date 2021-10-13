@@ -5,13 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: 
-        linear-gradient(
-            to left,
-            rgba($primary-color, 0.9),
-            rgba($primary-color, 0.3)
-        ),
-        url('../img/bree-fall.jpg') center top;
+    background: $background;
     background-size: cover;
 
     h2 {

@@ -5,13 +5,7 @@
         height: 30vh;
         width: 100%;
 
-        background: 
-        linear-gradient(
-            to top,
-            rgba($primary-color, 0.8),
-            rgba($primary-color, 0.0)
-        ),
-        url('../img/bree-fall.jpg') center top;
+        background: $background;
         background-size: cover;
         display: flex;
         flex-direction: column;

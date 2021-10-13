@@ -4,17 +4,11 @@
     overflow: hidden;
     align-items: center;
     text-align: center;
-    background: 
-        linear-gradient(
-            to left,
-            rgba($primary-color, 0.9),
-            rgba($primary-color, 0.3)
-        ),
-        url('../img/bree-fall.jpg') center top;
+    background: $background;
     background-size: cover;
 
     &__name {
-        font-size: 5rem;
+        font-size: 4rem;
         padding-bottom: 1rem;
         margin-bottom: 1rem;
         border-bottom: 2px solid set-text-color($primary-color);
@@ -22,7 +16,7 @@
         &--last {
             color: $secondary-color;
             font-style: italic;
-            font-weight: 300;
+            font-weight: 400;
 
         }
     }

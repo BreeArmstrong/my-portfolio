@@ -1,5 +1,13 @@
 $primary-color:#272727;
-$secondary-color: rgb(207, 117, 32);
+$secondary-color: rgb(215, 159, 241);
+
+$background: linear-gradient(
+    to top,
+    rgba($primary-color, 0.7),
+    rgba($primary-color, 0.1)
+),
+url('../img/coffee1.jpg') center;
+
 
 * {
     margin: 0;
